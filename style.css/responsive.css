@@ -1,0 +1,70 @@
+/* mobile */
+@media (min-width:320px) and (max-width:767px){
+    
+    .navbar .nav-menu{
+        width: 760px;
+        display: none;
+    }
+    .container{
+        width: 100%;
+        text-align: center;
+    }
+    .header .information-item{
+        flex-direction: column;
+    }
+    .header-mebel .mebel-items{
+        flex-direction: column;
+    }
+    .header-room-texnology .room-texnology-items{
+        flex-direction: column;
+        text-align: center;
+    }
+    .service-room-gallery{
+        display: none;
+    }
+    .room-service-text{
+        flex-direction: column;
+    }
+
+    .header-work-etap .work-etap-items{
+        flex-direction: column;
+    }
+    .header-product{
+        margin: 0 auto;
+        flex-direction: column;
+    }
+    .header-partnior{
+        align-items: center;
+    }
+    .header-partnior .partnior-gallery {
+        flex-direction: column;
+    }
+    .footer-section{
+        flex-direction: column;
+    }
+    .footer-ringo{
+        flex-direction: column;
+    }
+    .header-partnior .partnior-gallery{
+        flex-direction: column;
+    }
+    .header-partnior .partnior-gallery img{
+        width: auto;
+    }
+    .footer-partnior-item {
+        flex-direction: column;
+        width: 100px;
+        margin: 0 auto;
+    }
+    .footer-partnior-item img{
+        height: 50px;
+        margin: 0 auto;
+    }
+}
+/* desktop */
+@media (min-width:768px) and (max-width:1439px){
+    .navbar .hamburger{
+        display: none;
+    }
+
+}
